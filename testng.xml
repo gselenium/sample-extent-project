@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="pack1 Suite" parallel="tests" thread-count="5">
+
+	<test name="pack1 module 1 test1 case">
+		<classes>
+			<class name="package1.module1.test1" />
+		</classes>
+	</test>
+	<test name="pack1 module 1 test2 case">
+		<classes>
+			<class name="package1.module1.test2" />
+		</classes>
+	</test>
+	<test name="pack1 module 1 test3 case">
+		<classes>
+			<class name="package1.module1.test3" />
+		</classes>
+	</test>
+	<test name="pack1 module 1 test4 case">
+		<classes>
+			<class name="package1.module1.test4" />
+		</classes>
+	</test>
+
+	<test name="pack1 module 2 test1 case">
+		<classes>
+			<class name="package1.module2.test1" />
+		</classes>
+	</test>
+	<test name="pack1 module 2 test2 case">
+		<classes>
+			<class name="package1.module2.test2" />
+		</classes>
+	</test>
+
+
+	<test name="pack1 module 3 test1 case">
+		<classes>
+			<class name="package1.module3.test1" />
+		</classes>
+	</test>
+	<test name="pack1 module 3 test2 case">
+		<classes>
+			<class name="package1.module3.test2" />
+		</classes>
+	</test>
+	<test name="pack1 module 3 test3 case">
+		<classes>
+			<class name="package1.module3.test3" />
+		</classes>
+	</test>
+
+</suite> <!-- Suite -->
